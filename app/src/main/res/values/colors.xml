@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <color name="primaryColor">#2196F3</color>
+    <!--<color name="primaryColor">#2196F3</color>-->
+    <color name="primaryColor">#009688</color>
 
-    <color name="primaryColorDark">#1976D2</color>
+    <!--<color name="primaryColorDark">#1976D2</color>-->
+    <color name="primaryColorDark">#00796B</color>
 
-    <color name="accentColor">#CFD8DC</color>
+    <!--<color name="accentColor">#CFD8DC</color>-->
+    <color name="accentColor">#E0F2F1</color>
+
+    <color name="overlayColor">#55000000</color>
 
 </resources>
