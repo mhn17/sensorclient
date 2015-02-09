@@ -4,17 +4,17 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
-public class GallerySquareImageView extends ImageView {
+public class SquareImageView extends ImageView {
 
-    public GallerySquareImageView(Context context) {
+    public SquareImageView(Context context) {
         super(context);
     }
 
-    public GallerySquareImageView(Context context, AttributeSet attrs) {
+    public SquareImageView(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public GallerySquareImageView(Context context, AttributeSet attrs, int defStyleAttr) {
+    public SquareImageView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 

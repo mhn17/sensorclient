@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".activities.SingleImageActivity"
+            android:label="@string/title_activity_single_image"
+            android:parentActivityName=".activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.hammerton.noderestclient.activities.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

@@ -2,8 +2,8 @@ package de.hammerton.noderestclient.models;
 
 public class Image {
 
+    private final int id;
     private String name;
-    private int id;
 
     public Image(String name, int id) {
         this.name = name;
@@ -20,9 +20,5 @@ public class Image {
 
     public int getId() {
         return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 }
