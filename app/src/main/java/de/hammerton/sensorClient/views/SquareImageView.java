@@ -1,4 +1,4 @@
-package de.hammerton.noderestclient.views;
+package de.hammerton.sensorClient.views;
 
 import android.content.Context;
 import android.util.AttributeSet;

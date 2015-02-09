@@ -1,4 +1,4 @@
-package de.hammerton.noderestclient.activities;
+package de.hammerton.sensorClient.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,9 +11,9 @@ import android.widget.TextView;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import de.hammerton.noderestclient.R;
-import de.hammerton.noderestclient.adapters.ImageAdapter;
-import de.hammerton.noderestclient.models.Image;
+import de.hammerton.sensorClient.R;
+import de.hammerton.sensorClient.adapters.ImageAdapter;
+import de.hammerton.sensorClient.models.Image;
 
 
 public class SingleImageActivity extends ActionBarActivity {

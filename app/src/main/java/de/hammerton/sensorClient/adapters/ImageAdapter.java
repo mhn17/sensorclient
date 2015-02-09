@@ -1,4 +1,4 @@
-package de.hammerton.noderestclient.adapters;
+package de.hammerton.sensorClient.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -11,8 +11,8 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.hammerton.noderestclient.R;
-import de.hammerton.noderestclient.models.Image;
+import de.hammerton.sensorClient.R;
+import de.hammerton.sensorClient.models.Image;
 
 
 public class ImageAdapter extends BaseAdapter {

@@ -1,4 +1,4 @@
-package de.hammerton.noderestclient.models;
+package de.hammerton.sensorClient.models;
 
 public class Image {
 

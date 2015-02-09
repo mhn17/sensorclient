@@ -1,4 +1,4 @@
-package de.hammerton.noderestclient;
+package de.hammerton.sensorClient;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

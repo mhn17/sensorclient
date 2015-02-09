@@ -1,4 +1,4 @@
-package de.hammerton.noderestclient.activities;
+package de.hammerton.sensorClient.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,8 +9,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
 
-import de.hammerton.noderestclient.R;
-import de.hammerton.noderestclient.adapters.ImageAdapter;
+import de.hammerton.sensorClient.R;
+import de.hammerton.sensorClient.adapters.ImageAdapter;
 
 
 public class MainActivity extends ActionBarActivity {
