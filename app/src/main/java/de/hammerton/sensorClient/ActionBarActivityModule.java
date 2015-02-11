@@ -33,9 +33,4 @@ public class ActionBarActivityModule {
     public Context provideActivityContext() {
         return activity;
     }
-
-//    @Provides
-//    public ImageAdapter provideImageAdapter() {
-//        return new ImageAdapter(this.activity);
-//    }
 }

@@ -16,6 +16,7 @@ import javax.inject.Inject;
 import de.hammerton.sensorClient.ForActivity;
 import de.hammerton.sensorClient.R;
 import de.hammerton.sensorClient.models.Image;
+import de.hammerton.sensorClient.models.ImageFactory;
 
 
 public class ImageAdapter extends BaseAdapter {
@@ -39,12 +40,13 @@ public class ImageAdapter extends BaseAdapter {
     };
 
     @Inject
-    public ImageAdapter(@ForActivity Context context) {
+    public ImageAdapter(@ForActivity Context context, ImageFactory imageFactory) {
         inflater = LayoutInflater.from(context);
+
         // set images
         int counter = 1;
         for (Integer drawableId : mThumbIds) {
-            images.add(new Image("image " + counter, drawableId));
+            images.add(imageFactory.create(drawableId, "image " + counter));
             counter++;
         }
 
