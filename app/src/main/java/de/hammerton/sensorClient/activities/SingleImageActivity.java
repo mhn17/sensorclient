@@ -2,7 +2,6 @@ package de.hammerton.sensorClient.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
@@ -16,7 +15,7 @@ import de.hammerton.sensorClient.adapters.ImageAdapter;
 import de.hammerton.sensorClient.models.Image;
 
 
-public class SingleImageActivity extends ActionBarActivity {
+public class SingleImageActivity extends BaseActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
