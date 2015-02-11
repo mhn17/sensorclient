@@ -27,7 +27,7 @@ public class ActionBarActivityModule {
 
     @Provides
     @Singleton
-    @ForActionBarActivity
+    @ForActivity
     public Context provideActivityContext() {
         return activity;
     }

@@ -20,7 +20,7 @@ public abstract class BaseActionBarActivity extends ActionBarActivity {
 
         // create activity object graph and add activity specific modules
         SensorClientApp application = (SensorClientApp) getApplication();
-        this.activityGraph = application.getApplicationGraph().plus(this.getModules());
+        this.activityGraph = application.getApplicationGraph().plus(this.getModules().toArray());
         this.activityGraph.inject(this);
     }
 
