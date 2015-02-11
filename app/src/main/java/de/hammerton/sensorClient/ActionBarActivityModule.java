@@ -9,11 +9,13 @@ import dagger.Provides;
 import de.hammerton.sensorClient.activities.BaseActionBarActivity;
 import de.hammerton.sensorClient.activities.MainActivity;
 import de.hammerton.sensorClient.activities.SingleImageActivity;
+import de.hammerton.sensorClient.adapters.ImageAdapter;
 
 @Module(
         injects = {
                 MainActivity.class,
-                SingleImageActivity.class
+                SingleImageActivity.class,
+                ImageAdapter.class
         },
         addsTo = AndroidModule.class,
         library = true
@@ -31,4 +33,9 @@ public class ActionBarActivityModule {
     public Context provideActivityContext() {
         return activity;
     }
+
+//    @Provides
+//    public ImageAdapter provideImageAdapter() {
+//        return new ImageAdapter(this.activity);
+//    }
 }

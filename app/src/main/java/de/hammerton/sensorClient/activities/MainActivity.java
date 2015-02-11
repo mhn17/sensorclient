@@ -8,11 +8,15 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
 
+import javax.inject.Inject;
+
 import de.hammerton.sensorClient.R;
 import de.hammerton.sensorClient.adapters.ImageAdapter;
 
 
 public class MainActivity extends BaseActionBarActivity {
+    @Inject
+    ImageAdapter imageAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,7 +24,7 @@ public class MainActivity extends BaseActionBarActivity {
         setContentView(R.layout.activity_main);
 
         GridView gridView = (GridView) findViewById(R.id.galleryGridView);
-        gridView.setAdapter(new ImageAdapter(this));
+        gridView.setAdapter(imageAdapter);
 
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

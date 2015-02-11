@@ -11,6 +11,9 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.inject.Inject;
+
+import de.hammerton.sensorClient.ForActivity;
 import de.hammerton.sensorClient.R;
 import de.hammerton.sensorClient.models.Image;
 
@@ -35,9 +38,9 @@ public class ImageAdapter extends BaseAdapter {
             R.drawable.sample_6, R.drawable.sample_7
     };
 
-    public ImageAdapter(Context context) {
+    @Inject
+    public ImageAdapter(@ForActivity Context context) {
         inflater = LayoutInflater.from(context);
-
         // set images
         int counter = 1;
         for (Integer drawableId : mThumbIds) {

@@ -10,12 +10,16 @@ import android.widget.TextView;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import javax.inject.Inject;
+
 import de.hammerton.sensorClient.R;
 import de.hammerton.sensorClient.adapters.ImageAdapter;
 import de.hammerton.sensorClient.models.Image;
 
 
 public class SingleImageActivity extends BaseActionBarActivity {
+    @Inject
+    ImageAdapter imageAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +31,6 @@ public class SingleImageActivity extends BaseActionBarActivity {
 
         // Select the image id
         int position = intent.getExtras().getInt("position");
-        ImageAdapter imageAdapter = new ImageAdapter(this); // ToDo use DI
         Image image = (Image) imageAdapter.getItem(position);
 
         // Set ImageView
