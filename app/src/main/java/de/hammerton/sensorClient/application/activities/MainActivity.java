@@ -1,4 +1,4 @@
-package de.hammerton.sensorClient.activities;
+package de.hammerton.sensorClient.application.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,7 +11,7 @@ import android.widget.GridView;
 import javax.inject.Inject;
 
 import de.hammerton.sensorClient.R;
-import de.hammerton.sensorClient.adapters.ImageAdapter;
+import de.hammerton.sensorClient.application.adapters.ImageAdapter;
 
 
 public class MainActivity extends BaseActionBarActivity {

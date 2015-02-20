@@ -1,4 +1,4 @@
-package de.hammerton.sensorClient.models;
+package de.hammerton.sensorClient.application.models;
 
 public interface Image {
 

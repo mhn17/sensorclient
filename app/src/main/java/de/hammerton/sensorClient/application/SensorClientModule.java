@@ -1,7 +1,7 @@
-package de.hammerton.sensorClient;
+package de.hammerton.sensorClient.application;
 
 import dagger.Module;
-import de.hammerton.sensorClient.models.ImageFactory;
+import de.hammerton.sensorClient.application.models.ImageFactory;
 
 @Module(
         injects = {

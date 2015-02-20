@@ -3,13 +3,13 @@
     package="de.hammerton.sensorClient">
 
     <application
-        android:name=".SensorClientApp"
+        android:name=".application.SensorClientApp"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name="de.hammerton.sensorClient.activities.MainActivity"
+            android:name=".application.activities.MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,12 +18,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="de.hammerton.sensorClient.activities.SingleImageActivity"
+            android:name=".application.activities.SingleImageActivity"
             android:label="@string/title_activity_single_image"
-            android:parentActivityName="de.hammerton.sensorClient.activities.MainActivity">
+            android:parentActivityName=".application.activities.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="de.hammerton.sensorClient.activities.MainActivity" />
+                android:value=".application.activities.MainActivity" />
         </activity>
     </application>
 

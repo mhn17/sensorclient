@@ -1,4 +1,4 @@
-package de.hammerton.sensorClient.adapters;
+package de.hammerton.sensorClient.application.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -13,10 +13,10 @@ import java.util.List;
 
 import javax.inject.Inject;
 
-import de.hammerton.sensorClient.ForActivity;
 import de.hammerton.sensorClient.R;
-import de.hammerton.sensorClient.models.Image;
-import de.hammerton.sensorClient.models.ImageFactory;
+import de.hammerton.sensorClient.application.ForActivity;
+import de.hammerton.sensorClient.application.models.Image;
+import de.hammerton.sensorClient.application.models.ImageFactory;
 
 
 public class ImageAdapter extends BaseAdapter {

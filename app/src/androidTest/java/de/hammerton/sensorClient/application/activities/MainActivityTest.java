@@ -1,11 +1,11 @@
-package de.hammerton.sensorClient.activities;
+package de.hammerton.sensorClient.application.activities;
 
 
 import android.test.ActivityInstrumentationTestCase2;
 import android.widget.GridView;
 
 import de.hammerton.sensorClient.R;
-import de.hammerton.sensorClient.adapters.ImageAdapter;
+import de.hammerton.sensorClient.application.adapters.ImageAdapter;
 
 public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActivity> {
     private GridView gridView;

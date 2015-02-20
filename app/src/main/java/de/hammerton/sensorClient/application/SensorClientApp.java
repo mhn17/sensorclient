@@ -1,4 +1,4 @@
-package de.hammerton.sensorClient;
+package de.hammerton.sensorClient.application;
 
 import android.app.Application;
 

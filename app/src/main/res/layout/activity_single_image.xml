@@ -7,7 +7,7 @@
     android:paddingTop="0dp"
     android:paddingBottom="0dp"
     android:orientation="vertical"
-    tools:context="de.hammerton.sensorClient.activities.SingleImageActivity">
+    tools:context="de.hammerton.sensorClient.application.activities.SingleImageActivity">
 
     <ImageView
         android:id="@+id/singleImageView"

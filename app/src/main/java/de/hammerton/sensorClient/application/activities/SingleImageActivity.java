@@ -1,4 +1,4 @@
-package de.hammerton.sensorClient.activities;
+package de.hammerton.sensorClient.application.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,8 +13,8 @@ import java.util.Date;
 import javax.inject.Inject;
 
 import de.hammerton.sensorClient.R;
-import de.hammerton.sensorClient.adapters.ImageAdapter;
-import de.hammerton.sensorClient.models.Image;
+import de.hammerton.sensorClient.application.adapters.ImageAdapter;
+import de.hammerton.sensorClient.application.models.Image;
 
 
 public class SingleImageActivity extends BaseActionBarActivity {

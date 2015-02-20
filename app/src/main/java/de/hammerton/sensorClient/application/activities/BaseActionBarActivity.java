@@ -1,4 +1,4 @@
-package de.hammerton.sensorClient.activities;
+package de.hammerton.sensorClient.application.activities;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
@@ -7,8 +7,8 @@ import java.util.Arrays;
 import java.util.List;
 
 import dagger.ObjectGraph;
-import de.hammerton.sensorClient.ActionBarActivityModule;
-import de.hammerton.sensorClient.SensorClientApp;
+import de.hammerton.sensorClient.application.ActionBarActivityModule;
+import de.hammerton.sensorClient.application.SensorClientApp;
 
 public abstract class BaseActionBarActivity extends ActionBarActivity {
     private ObjectGraph activityGraph;
