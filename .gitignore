@@ -1,0 +1,11 @@
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+
+SensorClient.iml
+gradlew
+gradlew.bat
+documentation
+gradle
